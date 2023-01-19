@@ -1,5 +1,5 @@
 abstract class Race {
-  private readonly _name: string;
+  readonly _name: string;
   readonly _dexterity: number;
     
   constructor(name:string, dexterity:number) {
